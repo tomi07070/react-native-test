@@ -19,7 +19,7 @@ export default function About() {
             </View>
             <View style={tw`w-[280px] ml-[70px] mt-[50px]`}>
                 <Text style={tw`text-xl`}>Hola soy un mono de mierda me gusta la banana y la verga.
-                     Chupo pene todos los dias y mi cancion favorita es la de "yo soy el mejor mamando pene"</Text>
+                     Chupo pene todos los dias.</Text>
             </View>
         </>
     )
