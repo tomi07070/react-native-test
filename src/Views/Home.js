@@ -1,8 +1,11 @@
-import { View, Text, Image, Button, Alert } from "react-native";
+import { View, Text, Image, Button } from "react-native";
 import tw from 'twrnc'
+import { useNavigation } from '@react-navigation/native';
+
 
 
 export default function Home() {
+    const navigation = useNavigation();
     return (
         <>
             <View style={tw`ml-[100px] mt-[40px]`}>
@@ -18,7 +21,7 @@ export default function Home() {
             <View style={tw`mt-[80px] w-[180px] ml-[100px]`}>
                 <Button 
                 title="Get Started" 
-                onPress={() => Alert.alert("Button presed")}
+                onPress={() => navigation.navigate('About')}
                 />
             </View>
         </>
